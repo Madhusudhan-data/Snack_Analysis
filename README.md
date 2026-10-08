@@ -1,4 +1,4 @@
-Snack-Analysis & Nutritional Data Pipeline
+## **Snack-Analysis & Nutritional Data Pipeline**
 
 A comprehensive data engineering and comparative health analysis project built with **Apache Spark (PySpark)** and **Pandas**, evaluating the nutritional profiles of Starbucks and McDonald's menu items.
 
