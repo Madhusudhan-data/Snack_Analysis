@@ -37,17 +37,18 @@ The objective of this project is to extract, transform, clean, and analyze multi
 └── README.md                                  # Project documentation.
 ```
 ---
-##📊 **Summary of Findings (Task 3):**
+
+## 📊 **Summary of Findings (Task 3):**
 ☕ Starbucks: Features lower overall caloric averages and drastically lower sodium (~57.93 mg), though carbohydrate levels (~24.74 g) rise in sweetened or dairy-heavy drinks.
 🍟 McDonald's: Provides higher protein and macronutrient density at the cost of higher sodium, fats, and overall calories.
 
 ---
-##⚙️ ****Engineering Challenges & Solutions:**
+## ⚙️ ****Engineering Challenges & Solutions:**
 📄 Excel Parsing: Used Pandas to ingest .xlsx files since Spark lacks a native Excel reader.
 🔍 Missing Placeholders (-): Replaced string hyphens with None using conditional expressions (when / otherwise) before casting columns to double.
 🔣 Special Characters in Columns: Enclosed column names containing dots and parentheses (e.g., `Carb. (g)`) in backticks to prevent Spark Catalyst Optimizer [UNRESOLVED_COLUMN] errors.
 
 ---
-##🎯 **Conclusion****
+## 🎯 **Conclusion****
 Overall, the analysis helped compare the nutritional characteristics of Starbucks beverages and McDonald’s fast-food items. The preprocessing stage also provided practical experience in handling missing values and special characters while working with PySpark. Resolving these issues made the data suitable for further analysis and helped ensure that the final results were more reliable.
 
